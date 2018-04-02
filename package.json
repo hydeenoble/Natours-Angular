@@ -8,7 +8,8 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "compile:header": "node-sass src/app/header/header.component.scss src/app/header/header.component.css -w"
   },
   "private": true,
   "dependencies": {
