@@ -22,11 +22,21 @@
   }
 
   &--white{
-    background-color: #ffffff;
-    color: #777777;
+    background-color: $color-white;
+    color: $color-gray-dark;
 
     &:after{
-      background-color: #ffffff;
+      background-color: $color-white;
+    }
+
+  }
+
+  &--green{
+    background-color: $color-primary;
+    color: $color-white;
+
+    &:after{
+      background-color: $color-primary;
     }
 
   }
