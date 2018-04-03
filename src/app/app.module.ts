@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ExictingToursComponent } from './exicting-tours/exicting-tours.component';
 import { FeaturesComponent } from './features/features.component';
+import { ToursComponent } from './tours/tours.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { FeaturesComponent } from './features/features.component';
     AppComponent,
     HeaderComponent,
     ExictingToursComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    ToursComponent
   ],
   imports: [
     BrowserModule
