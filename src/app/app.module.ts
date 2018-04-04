@@ -8,6 +8,7 @@ import { ExictingToursComponent } from './exicting-tours/exicting-tours.componen
 import { FeaturesComponent } from './features/features.component';
 import { ToursComponent } from './tours/tours.component';
 import { StoriesComponent } from './stories/stories.component';
+import { BookComponent } from './book/book.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { StoriesComponent } from './stories/stories.component';
     ExictingToursComponent,
     FeaturesComponent,
     ToursComponent,
-    StoriesComponent
+    StoriesComponent,
+    BookComponent
   ],
   imports: [
     BrowserModule
