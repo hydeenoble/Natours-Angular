@@ -9,6 +9,7 @@ import { FeaturesComponent } from './features/features.component';
 import { ToursComponent } from './tours/tours.component';
 import { StoriesComponent } from './stories/stories.component';
 import { BookComponent } from './book/book.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { BookComponent } from './book/book.component';
     FeaturesComponent,
     ToursComponent,
     StoriesComponent,
-    BookComponent
+    BookComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
