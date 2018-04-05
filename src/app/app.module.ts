@@ -11,6 +11,7 @@ import { StoriesComponent } from './stories/stories.component';
 import { BookComponent } from './book/book.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { PopupComponent } from './popup/popup.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { NavigationComponent } from './navigation/navigation.component';
     StoriesComponent,
     BookComponent,
     FooterComponent,
-    NavigationComponent
+    NavigationComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule
