@@ -31,6 +31,9 @@ breakpoint arguement choices:
 - tab-land
 - big-desktop
 
+
+1 rem  = 16px
+
 */
 @mixin respond($breakpoint){
   @if($breakpoint == phone){
