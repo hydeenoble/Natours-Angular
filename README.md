@@ -1,6 +1,6 @@
 # [Natours](https://natours-angular.netlify.com)
 
-Natours project is a project designed from the urge too learn Advanced CSS and SASS.
+Natours was designed from the urge too learn Advanced CSS and SASS.
 
 Many thanks to [Jonas Schmedtmann](https://github.com/jonasschmedtmann) for his well explanatory course on Advanced CSS and SASS. The link to this project can be found [here](https://natours-angular.netlify.co
 
