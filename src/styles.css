@@ -878,7 +878,9 @@ body {
   z-index: 3000;
   opacity: 0;
   visibility: hidden;
-  transition: all .3s; }
+  transition: all .3s;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); }
   .popup__content {
     position: absolute;
     top: 50%;
