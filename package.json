@@ -9,7 +9,12 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "compile": "node-sass src/sass/main.scss src/styles.css -w"
+    "watch:sass": "node-sass src/sass/main.scss src/styles.css -w",
+    "compile:sass": "node-sass src/sass/main.scss src/styles.comp.css",
+    "concat:css": "concat -o src/style.concat.css src/assets/css/icon-font.css src/styles.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/style.concat.css -o src/style.prefix.css",
+    "compress:css": "node-sass src/style.prefix.css src/styles.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
   "private": true,
   "dependencies": {
@@ -33,7 +38,9 @@
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "autoprefixer": "^8.2.0",
     "codelyzer": "^4.0.1",
+    "concat": "^1.0.3",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~2.0.0",
@@ -42,6 +49,8 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "node-sass": "^4.8.3",
+    "npm-run-all": "^4.1.2",
+    "postcss-cli": "^5.0.0",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",

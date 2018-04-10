@@ -42,3 +42,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+#build files
+src/style.concat.css
+src/style.prefix.css
+src/styles.comp.css
