@@ -2,7 +2,7 @@
 
 Natours was designed from the urge to learn Advanced CSS and SASS.
 
-Many thanks to [Jonas Schmedtmann](https://github.com/jonasschmedtmann) for his well explanatory course on Advanced CSS and SASS. The link to this project can be found [here](https://natours-angular.netlify.co
+Many thanks to [Jonas Schmedtmann](https://github.com/jonasschmedtmann) for his well explanatory course on Advanced CSS and SASS. The link to this project can be found [here](https://natours-angular.netlify.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
